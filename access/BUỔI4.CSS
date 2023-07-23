@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    height: 46px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    margin: 0 24px;
+    font-size: 15px;
+
+}
+
+.navigation-info a:hover {
+    background-color: #ccc;
+    color: black;
+
+}
+
+.navigation-search {
+    color: white;
+    padding: 15px 26px;
+    font-size: 15px;
+}
+
+.navigation-search :hover {
+    background-color: #ccc;
+    padding: 15px 26px
+}
+
+.slideshow {
+    padding-top: 50%;
+    background-image: url('https://www.w3schools.com/w3images/chicago.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+#slider {
+    margin-top: 46px;
+    padding-top: 50%;
+}
+
+#slider.text-content {
+    position: absolute;
+    bottom: 47px;
+    color: #fff;
+    width: 100px;
+    text-align: center;
+}

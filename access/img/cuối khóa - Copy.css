@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    color: #222;
+}
+
+#menu ul {
+    background: black;
+    list-style-type: none;
+    text-align: center;
+    position: fixed;
+    top: 25;
+    width: 100%;
+}
+
+#menu li {
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+#menu ul li a:hover {
+    background: white;
+    color: gray;
+}
+
+#menu ul li>.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu li {
+    position: relative;
+}
+
+.sub-menu {
+    display: none;
+    position: absolute;
+}
+
+#menu ul li:hover .sub-menu {
+    display: block;
+}
+
+
+.flex-container {
+    height: 1000px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: solid 1px black;
+    list-style: none;
+
+}
+
+
+.flex-item {
+    width: 90px;
+    height: 90px;
+    background-color: black;
+    border: solid 1px blanchedalmond;
+    padding: 50px;
+    margin: 50px;
+
+
+}
+
+
+.flex-item__infor {
+    font-size: 3rem;
+    padding-top: 200px;
+}
+
+.flex-item__information {
+    font-size: 5rem;
+}
+
+.flex-container__2 {
+    border-bottom: solid 1px black;
+    height: 1000px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.li .flex-item__infor {
+    list-style-type: none;
+}
+
+.bg {
+
+    background-image: url("/access/img/screenshot_1688826983.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: 1000px; */
+    width: 100%;
+
+
+}
+
+h1 {
+    margin-top: 15px;
+}
+
+.slideshow {
+    position: relative;
+    width: 1350px;
+    height: 800px;
+    overflow: hidden;
+    padding-top: 25px;
+}
+
+.slides {
+    width: 1350px;
+    height: 800px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+}
+
+.Mytext {
+    list-style: none;
+}
+
+.Introduction {
+    padding-top: 290px;
+}
+
+.flex-item__image {
+    padding-top: 290px
+}
+
+.flex-item__information {
+    padding-top: 290px;
+}
+
+.flex-img {
+    padding-top: 150px;
+}
+
+.flex-item__infor {
+    padding-top: 350px;
+}
